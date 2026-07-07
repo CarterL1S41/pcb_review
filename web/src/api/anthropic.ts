@@ -5,6 +5,7 @@
 import type { ModelOption } from '../types';
 
 export const ANTHROPIC_MODELS: ModelOption[] = [
+  { id: 'claude-fable-5', name: 'Claude Fable 5 (Ideal)', contextWindow: 1000000 }, 
   // Claude 4 models
   { id: 'claude-sonnet-4-20250514', name: 'Claude Sonnet 4 (Recommended)', contextWindow: 200000 },
   { id: 'claude-opus-4-20250514', name: 'Claude Opus 4 (Most Capable)', contextWindow: 200000 },
